@@ -1,0 +1,20 @@
+# Core Libraries
+chromadb
+sentence-transformers
+transformers
+langchain>=0.1.46
+langchain-community
+langchain-chroma
+langchain-huggingface
+huggingface_hub
+streamlit
+pandas
+numpy
+python-dotenv
+
+# Version Pinned Dependencies to Avoid Errors
+tokenizers==0.15.2          
+safetensors==0.3.1          
+
+# PyTorch (used by sentence-transformers)
+torch
